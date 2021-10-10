@@ -1,0 +1,61 @@
+/*Deals with the main body*/
+body{
+    background: #f5d9e5;
+    font-family: :"Nunito", sans-serif;
+}
+
+/*Deals with the main nav bar*/
+#mainNavbar{
+    font-size:1.5rem;
+    font-weight: 100;
+}
+
+/*the links shown in navbar*/
+#mainNavbar .nav-link{
+    color:white;
+}
+
+/*the links, on hover*/
+#mainNavbar .nav-link:hover{
+    color:#EA1C2C;
+}
+
+#mainNavbar .navbar-brand{
+    color:#EA1C2C;
+}
+
+/*styling the spans*/
+#headingGroup span{
+    color:#EA1C2C;
+}
+
+#headingGroup h1{
+    font-weight:100;
+    font-size:3rem;
+}
+
+/*flexbox, to responsive the heading group*/
+@media (max-width:1200px) {
+    /*activates when it becomes less than 1200px*/
+    #headingGroup h1{
+        font-weight:100;
+        font-size:2rem;
+    }
+}
+
+h2{
+    color:#f14a58;
+    font-weight:100;
+    font-size:2rem;
+}
+
+p{
+    color:#e94d5a;
+    font-weight:50;
+    font-size:1.2rem;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 50px;
+}
